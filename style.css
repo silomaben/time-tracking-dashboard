@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    background-color: hsl(226, 43%, 10%);
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: Rubik;
+}
+
+
+
+.grid{
+    width: 100vh;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:'one two three four'
+                        'one five six seven';
+    gap: 10px 15px;
+}
+
+.grid1{
+    width: 150px;
+    height: 350px;
+    background-color: hsl(235, 46%, 20%);
+    color: white;
+    border-radius: 10px;
+    grid-area: one;
+}
+
+.jeremy{
+    background-color: hsl(264, 64%, 52%);
+    width: 150px;
+    height: 250px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+.jer{
+    margin: 20px;
+
+}
+
+.jeremy img{
+    border-radius: 50px;
+    width: 70px;
+    border-color: white;
+    border-width: 20px;
+    margin-bottom: 20px;
+}
+
+.jeremy h2{
+    
+    font-size: 30px;
+    flex-wrap: wrap;
+    
+}
+
+.jeremy .jer h5{
+    margin-bottom: 3px;
+}
+
+.days{
+    margin: 20px;
+    font-size: 10px;
+}
+
+
+.grid2{
+    width: 150px;
+    height: 168px;
+    background-color: hsl(254, 87%, 53%);
+    color: white;
+    border-radius: 10px;
+    grid-area: two;
+}
+
+.grid3{
+    width: 150px;
+    height: 168px;
+    background-color: hsl(37, 87%, 53%);
+    color: white;
+    border-radius: 10px;
+    grid-area: three;
+}
+
+.grid4{
+    width: 150px;
+    height: 168px;
+    background-color: hsl(37, 87%, 53%);
+    color: white;
+    border-radius: 10px;
+    grid-area: four;
+}
+
+.grid5{
+    width: 150px;
+    height: 168px;
+    background-color: hsl(37, 87%, 53%);
+    color: white;
+    border-radius: 10px;
+    grid-area: five;
+}
+
+.grid6{
+    width: 150px;
+    height: 168px;
+    background-color: hsl(37, 87%, 53%);
+    color: white;
+    border-radius: 10px;
+    grid-area: six;
+}
+
+.grid7{
+    width: 150px;
+    height: 168px;
+    background-color: hsl(37, 87%, 53%);
+    color: white;
+    border-radius: 10px;
+    grid-area: seven;
+}
