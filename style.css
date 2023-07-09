@@ -88,7 +88,7 @@
 .grid2{
     width: 150px;
     height: 168px;
-    background-color: hsl(254, 87%, 53%);
+    background-color: hsl(15, 100%, 70%);
     color: white;
     border-radius: 10px;
     grid-area: two;
@@ -97,7 +97,7 @@
 .grid3{
     width: 150px;
     height: 168px;
-    background-color: hsl(37, 87%, 53%);
+    background-color: hsl(195, 74%, 62%);
     color: white;
     border-radius: 10px;
     grid-area: three;
@@ -106,7 +106,7 @@
 .grid4{
     width: 150px;
     height: 168px;
-    background-color: hsl(37, 87%, 53%);
+    background-color: hsl(348, 100%, 68%);
     color: white;
     border-radius: 10px;
     grid-area: four;
@@ -115,7 +115,7 @@
 .grid5{
     width: 150px;
     height: 168px;
-    background-color: hsl(37, 87%, 53%);
+    background-color: hsl(145, 58%, 55%);
     color: white;
     border-radius: 10px;
     grid-area: five;
@@ -124,17 +124,29 @@
 .grid6{
     width: 150px;
     height: 168px;
-    background-color: hsl(37, 87%, 53%);
+    background-color: hsl(264, 64%, 52%);
     color: white;
     border-radius: 10px;
     grid-area: six;
 }
 
 .grid7{
+
     width: 150px;
     height: 168px;
-    background-color: hsl(37, 87%, 53%);
+    background-color: hsl(43, 84%, 65%);
     color: white;
     border-radius: 10px;
     grid-area: seven;
+}
+
+.innerbox{
+    background-color:hsl(235, 46%, 20%);
+    margin-top: 30px;
+    width: 150px;
+    height: 148px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
