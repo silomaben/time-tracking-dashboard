@@ -85,6 +85,7 @@
     margin: 20px;
     font-size: 10px;
     gap: 10px;
+    cursor: pointer;
 }
 
 
@@ -132,9 +133,11 @@
     width: 150px;
     height: 80%;
     border-radius: 10px;
-    
-    
-    
+}
+
+.innerbox:hover {
+    background-color: hsl(235, 46%, 40%);
+    cursor: pointer;
 }
 
 .box21{
